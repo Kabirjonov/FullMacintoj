@@ -1,0 +1,120 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.cheklov {
+    background: #141414;
+    width: 100vh;
+    display: none;
+}
+
+.cheklov h1 {
+    opacity: 0;
+    color: red;
+}
+.row-size0 {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+.col-size0 {
+    padding-right: 0 !important;
+    padding-left: 0 !important;    
+}
+
+header ul li a {
+    font-weight: 600 !important;
+    transition: 0.5s;
+    margin-left: 20px;
+}
+
+.end .end-block {
+    background: #007d2f;
+    padding: 112px 0 100px 0;
+}
+
+.end-block h3 {
+    margin-bottom: 37px;
+    font-size: 30px;
+}
+
+
+.end-block p {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+section img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover
+}
+
+section .box-images {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+section .box-images img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+section .box-images a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #219c5083;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: #fff;
+    opacity: 0;
+    transition: 0.5s;
+}
+section .box-images a:hover {
+    opacity: 1;
+}
+
+
+
+
+
+.cly {
+    background: #141414;
+    padding-top: 110px;
+    padding-bottom: 90px;
+}
+.cly h3, p, a {
+    color: #bcbcbc;
+    text-decoration: none !important;
+    transition: 0.5s;
+}
+.cly a:hover {
+    color: #fff;
+}
+
+
+
+
+
+
+
+/* @media */
+
+@media (max-width: 580px){
+
+    body {
+        opacity: 1;
+    }
+    .cheklov {
+       display: initial; 
+    }
+}
